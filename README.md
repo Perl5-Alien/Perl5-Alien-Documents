@@ -16,7 +16,7 @@ The rules of the organization are as follows:
 * Features may only be changed or removed in a major release.
 * Refactoring and deprecations should be avoided if no important feature depends on it.
 * New features can be marked as experimental to be excluded from deprecation policies.
-* A major release is signaled by a new major version number and a unique code name based on a Unicode character.
+* A major release is signaled by a new major version number.
 * Only add dependencies if absolutely necessary and make them optional if possible.
 * The master source code repository should always be kept in a stable state, use feature branches for actual development.
 * All code contributions from non-core members should be sent as GitHub pull requests.
