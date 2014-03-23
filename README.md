@@ -23,4 +23,13 @@ The rules of the organization are as follows:
 * No Elitism.
 * Peace!
 
+Alien::Base, if successful, can be a cornerstone project for other major projects.
+Therefore extra care should be made to provide stability and longevity.
+The project should target at least the versions of Perl that are currently supported by p5p and every attempt should be made to support older Perls if possible.
+It must support Linux, Mac, and Windows.
+It should attempt to support all other platforms that Perl is known to run on, where this is possible without compromising support for the major platforms listed above.
+
+Due to the mechanisms used for automated testing, especially by CPAN Testers, and due to the nature of this, automated testing of Alien::Base is difficult.
+That said, testing is of paramount importance, and every attempt should be made to have meaninful testing of Alien::Base itself as well as provide testing tools for dependent modules if possible.
+
 (borrowed in large part from the Mojolicious project)
