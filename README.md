@@ -43,4 +43,6 @@ It should attempt to support all other platforms that Perl is known to run on, w
 Due to the mechanisms used for automated testing, especially by CPAN Testers, and due to the nature of this, automated testing of Alien::Base is difficult.
 That said, testing is of paramount importance, and every attempt should be made to have meaninful testing of Alien::Base itself as well as provide testing tools for dependent modules if possible.
 
+The master repository for all Perl5-Alien projects may be found at the Organization's GitHub page.
+
 (borrowed in large part from the Mojolicious project)
