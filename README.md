@@ -16,12 +16,21 @@ The rules of the organization are as follows:
 * Features may only be changed or removed in a major release.
 * Refactoring and deprecations should be avoided if no important feature depends on it.
 * New features can be marked as experimental to be excluded from deprecation policies.
-* A major release is signaled by a new major version number.
 * Only add dependencies if absolutely necessary and make them optional if possible.
 * The master source code repository should always be kept in a stable state, use feature branches for actual development.
 * All code contributions from non-core members should be sent as GitHub pull requests.
 * No Elitism.
 * Peace!
+
+The release and version strategy is as follows:
+* An official release is done by the pumpkin when a set of feature branches are merged back on to the master branch.
+* A developer release may be done prior to an official release to emable CPAN tester smoking.
+* The version number will follow a X.Y.Z_TAG format, where X is the major version, Y is the minor version, Z is the bugfix version number, and TAG is a token selected by the pumpkin-holder.  Z and TAG are optional in the version string.
+* A major release is signaled by a new major version number.  A major release is defined as a release that changes the API in a backward-incompatible way.
+* A minor relase is signaled by a new minor version number.  A minor release is defined as a release that changes the API in a backward-compatible way.
+* A bugfix release is signaled by a new bugfix version number.  A bugfix release is defined as a release that does not change the API.
+* If a set of features are combined into a single release, the change in the version string will change the left-most applicable part of the version string.
+
 
 Alien::Base, if successful, can be a cornerstone project for other major projects.
 Therefore extra care should be made to provide stability and longevity.
