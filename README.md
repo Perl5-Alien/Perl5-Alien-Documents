@@ -13,7 +13,7 @@ The rules of the organization are as follows:
 * Any core developer may nominate a new one, who must then be accepted by a 2/3 majority vote.
 * The pumpkin-holder has veto rights and may select their successor.
 * A feature is only needed when the majority of the user base benefits from it.
-* Features may only be changed or removed in a major release.
+* Features may only be changed or removed in a major release.  Features may be added in a minor-release.
 * Refactoring and deprecations should be avoided if no important feature depends on it.
 * New features can be marked as experimental to be excluded from deprecation policies.
 * Only add dependencies if absolutely necessary and make them optional if possible.
