@@ -2,7 +2,7 @@ Contributing to Perl5-Alien
 =====================
 
 Perl5-Alien is a development organization devoted to the continued development of Alien::Base and the Perl 5 Alien ecosystem as a whole.
-It consists of a pumkin-holder (currently Joel Berger) and the core developer team listed in the github organization, currently they are
+It consists of a pumkin-holder (identified by membership in the Pumpkin team in the GitHub organization), currently Joel Berger, and the core developer team (identified by membership in the Owner team in the GitHub organization), currently they are
 
 * Chris Marshall (chm)
 * Brian Wightman (MidLifeXis)
