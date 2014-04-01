@@ -21,6 +21,7 @@ The rules of the organization are as follows:
 * Only add dependencies if absolutely necessary and make them optional if possible.
 * The master source code repository should always be kept in a stable state, use feature branches for actual development.
 * All code contributions from non-core members should be sent as GitHub pull requests against the Organization's copy of the repository.
+* All decisions requiring a vote should be initiated using the Issues system.  Items impacting a single repository should be added to the repository's Issue tracker.  Items impacting the Organization as a whole, or impacting multiple repositories should be added to the Organization's Per5-Alien-Documents repository.
 * No Elitism.
 * Peace!
 
