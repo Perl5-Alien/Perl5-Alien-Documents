@@ -20,7 +20,7 @@ The rules of the organization are as follows:
 * New features can be marked as experimental to be excluded from deprecation policies.
 * Only add dependencies if absolutely necessary and make them optional if possible.
 * The master source code repository should always be kept in a stable state, use feature branches for actual development.
-* All code contributions from non-core members should be sent as GitHub pull requests.
+* All code contributions from non-core members should be sent as GitHub pull requests against the Organization's copy of the repository.
 * No Elitism.
 * Peace!
 
