@@ -11,6 +11,7 @@ The rules of the organization are as follows:
 
 * The addition and modification of features is decided by majority vote or the pumpkin-holder.
 * Any core developer may nominate a new one, who must then be accepted by a 2/3 majority vote.
+* Votes will be held prompty by secret vote, collected by the pumpkin-holder. Votes not cast within 2 weeks of the vote call will be counted as absentions.
 * The pumpkin-holder has veto rights on all decisions and may select their successor from the core development team.
 * In the event that a pumpkin-holder is no longer able to fulfill their duties, the remaining members of the core development team will select a new pumpkin-holder by a 3/4 majority vote.
 * The pumpkin-holder is responsible for the tagging the GitHub repository with a release version, and generating all CPAN releases from a tagged point in the GitHub repository.  The pumpkin-holder may delegate the implementation of a release to another member of the core developer team.
